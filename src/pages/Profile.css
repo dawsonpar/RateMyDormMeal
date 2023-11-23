@@ -1,0 +1,34 @@
+h2,
+h3 {
+  margin: 0;
+}
+
+.signout {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+.profile {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 740px) {
+  .my-profile,
+  .user-email {
+    font-size: clamp(14px, 3vw, 20px);
+  }
+
+  .sign-out-button {
+    font-size: clamp(12px, 3vw, 16px);
+  }
+}

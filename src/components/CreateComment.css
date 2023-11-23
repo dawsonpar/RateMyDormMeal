@@ -1,0 +1,23 @@
+.createCommentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.createCommentForm textarea {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  resize: none;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+@media (max-width: 650px) {
+  .createCommentForm textarea {
+    width: calc(100% - 1em);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}

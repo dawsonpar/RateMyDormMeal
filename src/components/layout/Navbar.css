@@ -1,0 +1,80 @@
+.navbar {
+  background-color: var(--primary-bg-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: box-shadow 350ms ease-in-out;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar button {
+  background-color: var(--primary-cta-color);
+}
+
+.navbar button:hover {
+  background-color: rgb(255, 35, 35);
+  transition: 500ms ease-in-out;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-left,
+.nav-right {
+  margin: 0.5em;
+}
+
+.nav-left {
+  margin-left: 1.5em;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2em;
+  margin-right: 1.5em;
+}
+
+.nav-right-item {
+  cursor: pointer;
+}
+
+.nav-right-item-mobile {
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+/* mobile */
+
+.mobile-text {
+  font-size: 16px;
+}
+
+.close-icon {
+  margin-top: 0.5em;
+}
+.vertical-menu {
+  text-align: right;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  z-index: 200;
+  backdrop-filter: blur(8px);
+}
+
+.mobile-sign-in {
+  margin-bottom: 0.5em;
+}

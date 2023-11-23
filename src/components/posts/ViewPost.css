@@ -1,0 +1,44 @@
+.view-post-image {
+  max-width: clamp(400px, 8vw, 600px);
+  max-height: 300px;
+  border-radius: 8px;
+}
+
+.view-post-title {
+  margin-top: 0.75em;
+}
+
+.like-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.like-title {
+  font-weight: bold;
+}
+
+.view-post {
+  max-width: 600px;
+}
+
+.view-post-desc {
+  margin: 0 0.5em;
+  border: 1px solid #b8b8b880;
+  border-radius: 2px;
+  padding: 0.5em;
+}
+
+.like-icon {
+  transition: transform 0.3s ease;
+}
+
+.like-icon:hover {
+  box-shadow: 0 0 10px rgba(166, 166, 166, 0.5);
+}
+
+.liked {
+  transform: scale(1.2);
+}

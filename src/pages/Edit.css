@@ -1,0 +1,57 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.edit-post-container {
+  margin-bottom: 50px;
+}
+
+.delete {
+  background-color: var(--primary-cta-color);
+}
+
+.edit-post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* min-width: 600px; */
+  gap: 1em;
+}
+
+@media (max-width: 650px) {
+  .edit-post-form {
+    width: 400px;
+  }
+
+  .upload-image-container,
+  label,
+  #title,
+  #description,
+  #uploadImage,
+  .imgUpload,
+  .button-container {
+    width: calc(100% - 2em);
+  }
+
+  #uploadImage {
+    padding: 0 0.9em;
+    height: 45px;
+  }
+
+  .upload-image-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .upload-button {
+    width: 100%;
+  }
+
+  .postImg {
+    max-width: 100%;
+  }
+}

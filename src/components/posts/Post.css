@@ -1,0 +1,32 @@
+.post {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  background-color: #d0d0d0;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.post:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
+}
+
+.post-title {
+  font-size: 20px;
+}
+
+.post-image {
+  width: 300px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  filter: blur(10px);
+  transition: filter 0.3s ease-out;
+  border-radius: 8px;
+}
+
+.post-image.loaded {
+  filter: blur(0);
+}
+
+.post-created {
+  margin-bottom: 0;
+}

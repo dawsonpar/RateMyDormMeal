@@ -1,0 +1,24 @@
+h1 {
+  margin-bottom: 0.2em;
+}
+
+.meals-title {
+  font-size: clamp(45px, 8vw, 100px);
+}
+
+.subtitle {
+  font-size: clamp(14px, 3vw, 25px);
+}
+
+.filters {
+  display: flex;
+  gap: 1em;
+}
+
+.popular {
+  background-color: var(--primary-cta-color);
+}
+
+.meals {
+  margin-bottom: 2em;
+}

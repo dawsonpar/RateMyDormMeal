@@ -1,0 +1,9 @@
+.edit-post {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.no-posts {
+  margin: 0 auto;
+}

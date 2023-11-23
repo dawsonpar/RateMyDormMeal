@@ -1,0 +1,6 @@
+@media (max-width: 740px) {
+  .share-page {
+    /* width: calc(100% - 2em); */
+    margin: 0 0.5em;
+  }
+}
